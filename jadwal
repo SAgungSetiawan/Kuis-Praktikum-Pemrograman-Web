@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Pertandingan Cristiano Ronaldo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 15px;
+            background: #fcfdfd;
+            border-radius: 10px;
+            
+        }
+        .judul {
+            background: #29c8ce;
+            padding: 10px;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            border: 2px solid #333;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+        .jadwal {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 8px;
+            margin-top: 10px;
+        }
+        .kotak {
+            background: #facd03;
+            padding: 10px;
+            border-radius: 8px;
+            font-weight: bold;
+            border: 2px solid #333;
+            font-size: 14px;
+        }
+        .jadwal-item {
+            background: #a4a6a8;
+            padding: 10px;
+            border-radius: 8px;
+            border: 2px solid #555;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="judul">Jadwal Pertandingan Cristiano Ronaldo</div>
+        <div class="jadwal">
+            <div class="kotak">Tanggal</div>
+            <div class="kotak">Waktu (WIB)</div>
+            <div class="kotak">Pertandingan</div>
+            <div class="kotak">Lokasi</div>
+
+            <div class="jadwal-item">15 Maret 2025</div>
+            <div class="jadwal-item">20:00</div>
+            <div class="jadwal-item">Al-Nassr vs. Al-Fateh</div>
+            <div class="jadwal-item">Stadion Mrsool Park, Riyadh</div>
+
+            <div class="jadwal-item">22 Maret 2025</div>
+            <div class="jadwal-item">20:00</div>
+            <div class="jadwal-item">Al-Ittihad vs. Al-Nassr</div>
+            <div class="jadwal-item">Stadion King Abdullah Sports City, Jeddah</div>
+
+            <div class="jadwal-item">29 Maret 2025</div>
+            <div class="jadwal-item">20:00</div>
+            <div class="jadwal-item">Al-Nassr vs. Al-Shabab</div>
+            <div class="jadwal-item">Stadion Mrsool Park, Riyadh</div>
+
+            <div class="jadwal-item">5 April 2025</div>
+            <div class="jadwal-item">20:00</div>
+            <div class="jadwal-item">Al-Hilal vs. Al-Nassr</div>
+            <div class="jadwal-item">Stadion King Fahd International, Riyadh</div>
+
+            <div class="jadwal-item">12 April 2025</div>
+            <div class="jadwal-item">20:00</div>
+            <div class="jadwal-item">Al-Nassr vs. Al-Ettifaq</div>
+            <div class="jadwal-item">Stadion Mrsool Park, Riyadh</div>
+        </div>
+    </div>
+
+</body>
+</html>

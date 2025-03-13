@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tautan Profil</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #29cabd, #190be0);
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .gambar-profil {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 2px solid white;
+        }
+
+        .tombol {
+            display: block;
+            width: 250px;
+            padding: 10px;
+            margin: 10px;
+            background: white;
+            color: black;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        .tombol:hover {
+            background: #f0f0f0;
+        }
+
+        .ikon-tautan a {
+            color: white;
+            font-size: 24px;
+            margin: 10px;
+            text-decoration: none;
+        }
+
+        .ikon-tautan a:hover {
+            color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="data:image/jpeg;base64,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" alt="Foto Profil" class="gambar-profil">
+    <h3 style="color: white;">Cristiano Ronaldo</h3>
+
+    <a href="http://localhost/kuis1pweb/jadwal" class="tombol">Jadwal Pertandingan</a>
+    <a href="https://www.transfermarkt.com/al-nasr-riad/startseite/verein/18544" class="tombol">Al-Nassr</a>
+    <a href="https://www.google.com/search?q=liga+arab&sca_esv=ee3395f8cbb9de9c&cs=0&ei=dKTSZ_SuJ9aQ4-EPsdusCA&ved=0ahUKEwj0uJOv3oaMAxVWyDgGHbEtCwEQ4dUDCBA&uact=5&oq=liga+arab&gs_lp=Egxnd3Mtd2l6LXNlcnAiCWxpZ2EgYXJhYjIIEC4YgAQYsQMyBRAAGIAEMgUQLhiABDIFEC4YgAQyBRAuGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEC4YgARIyCJQww1Yqh1wAXgBkAEBmAGVBaABvxiqAQswLjEuNS4wLjEuMrgBA8gBAPgBAZgCCaACvBWoAgrCAhMQLhiABBhDGLQCGIoFGOoC2AEBwgITEAAYgAQYQxi0AhiKBRjqAtgBAcICChAuGIAEGEMYigXCAgsQLhiABBixAxiDAcICDRAuGIAEGLEDGEMYigXCAhEQLhiABBixAxjRAxiDARjHAcICEBAuGIAEGLEDGEMYgwEYigXCAgoQABiABBhDGIoFwgIYEC4YgAQYsQMY0QMYQxiDARjHARiKBRgKmAM88QUfTvot98G457oGBAgBGAeSBwkxLjAuMi40LjKgB4fXAQ&sclient=gws-wiz-serp#sie=lg;/g/11y4b9t0kx;2;/m/0c73xm;mt;fp;1;;;" class="tombol">Liga Profesional Saudi</a>
+    <a href="https://www.transfermarkt.com/cristiano-ronaldo/profil/spieler/8198" class="tombol">Cristiano Ronaldo Profile</a>
+    <a href="https://www.cristianoronaldo.com/#cr7" class="tombol">Website Cristiano Ronaldo</a>
+
+    <div class="ikon-tautan">
+        <a href="https://www.facebook.com/Cristiano"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://x.com/Cristiano"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/cristiano/"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/SAgungSetiawan/Kuis-Praktikum-Pemrograman-Web"><i class="fab fa-github"></i></a>
+        <a href="https://www.youtube.com/@cristiano"><i class="fab fa-youtube"></i></a>
+    </div>
+
+</body>
+</html>
